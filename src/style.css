@@ -1,0 +1,140 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: chocolate;
+}
+
+body{
+    background-color: rgb(235, 235, 233);
+}
+/* Fim Global */
+
+/* Header */
+.blog-header{
+    background-color: rgb(246, 194, 51);   
+}
+
+.logo{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.texto1{
+    position: absolute;
+    left: 45%;
+    margin: 5px auto;
+    color: rgb(86, 100, 100);
+    
+}
+
+.texto2{
+    position: absolute;
+    left: 45%;
+    margin: 5px auto;
+    margin-left: 60px;
+    color: rgb(244, 233, 219);
+ }
+
+nav{
+    padding: 30px;
+}
+
+.blog-nav ul{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    left: 35%;
+    list-style: none;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-nav a:link, .blog-nav a:visited{
+    color: rgb(244, 233, 219);
+} 
+
+.blog-nav a:hover{
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgb(244, 233, 219);
+    color: rgb(246, 194, 51);
+    
+}
+/* Fim Header */
+
+main{
+    width: 1000px ;
+    position: relative;
+    left: 200px;
+    padding: 20px;
+}
+
+/*Section*/
+section{
+    
+    width: 650px;
+    padding: 20px;
+    background-color:rgb(255, 249, 249);
+}
+
+article img{
+    display: block;
+    margin: 15px auto;
+
+}
+
+article h2{
+    margin-top: 10px;
+    color:rgb(246, 194, 51);
+}
+
+/*Fim Section*/
+
+/* Aside */
+.bloco h2{
+    width: fit-content;
+    padding: 2px 10px;
+    background-color: rgb(208, 203, 203);
+    color: rgb(101, 100, 100);
+}
+
+.bloco ul{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.bloco{
+    background-color: rgb(255, 249, 249);
+    padding: 20px;
+    margin-top: 5px;
+}
+
+aside{
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    left: 70%;
+    top: -5px;
+  
+}
+/* Fim Aside */
+
+footer{ 
+    position: relative;
+    left: auto;
+    right: auto;
+    padding: 20px;
+    background-color: rgb(154, 155, 156);
+    text-align: center;
+}
